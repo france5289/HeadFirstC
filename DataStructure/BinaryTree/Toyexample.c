@@ -35,7 +35,7 @@ struct Node* newNode(int data){
     return node;
 }
 
-int main() {
+int main(void){
     /*create root*/
     struct Node *root = newNode(1);
     /* following is the tree after above statement
